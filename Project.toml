@@ -1,6 +1,6 @@
 name = "OpenSpecFun_jll"
 uuid = "efe28fd5-8261-553b-a9e1-b2916fc3738e"
-version = "0.5.3+0"
+version = "0.5.3+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
