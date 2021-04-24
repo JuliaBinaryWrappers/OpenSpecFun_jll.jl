@@ -1,378 +1,459 @@
 [[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "e6e3e56185ca54f071864e989e828f00f281f32f"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[OpenSpecFun.download]]
-    sha256 = "6477406113fbd53a733087e131aad8da8b85ed02f48e7610791be3971bcdde7d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-w64-mingw32-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "0eeb31407f0506d4c67b066311f42d8ee9f9e215"
-libgfortran_version = "4.0.0"
-os = "freebsd"
-
-    [[OpenSpecFun.download]]
-    sha256 = "90511c488b863974d13f7f87862ae1834098b15a0ed3210e71b99bcb2d9512ea"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-unknown-freebsd11.1-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "e481eddc47c119c8cee0e52e482ab59e7e71f21e"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[OpenSpecFun.download]]
-    sha256 = "5e7fdb011365dd87d9d1d7e1ed5488b4e6350cb3e4960801bab7eed03965f89e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-apple-darwin14-libgfortran3.tar.gz"
-[[OpenSpecFun]]
 arch = "aarch64"
-git-tree-sha1 = "4bfdb4de270e073b1578705e6702f359c48e9348"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "1c82e1f801b5f0bb377c09dbc42638ef466d34471444f27e87f0d31324da3ed0"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.aarch64-linux-gnu-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "f1995b1383b847516ff8b5293d09dcfdbb8e725e"
-libgfortran_version = "4.0.0"
-os = "macos"
-
-    [[OpenSpecFun.download]]
-    sha256 = "cb61c214589a97d10064c119fa4eef3f377fd8f6e890bf6b40041ca0be270e20"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-apple-darwin14-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "fcacf68db172fe1722facf228d64ab091ee037e6"
+git-tree-sha1 = "8402f521098048aa58adc747fb301a74a53b0f84"
 libgfortran_version = "5.0.0"
 os = "macos"
 
     [[OpenSpecFun.download]]
-    sha256 = "e261491ce3e8f2ac1181db455a3d5e2c0208132636780d73b61947ee708682b6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-apple-darwin14-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "armv7l"
-git-tree-sha1 = "4813032007b516bcf3cf55679cdc5736e2bd34df"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "b1a5498c42de3cf8f7c8a5a8e34aba909b1717665e989f8703f76a8b825e2873"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.armv7l-linux-musleabihf-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "49b1f58406f7a8cea1181ea1e0c03145ebd79625"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "2cc90c846321afcc04ea0bde36c994952d0ce914ade626091b0ab1ddc7f14906"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-linux-gnu-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "75f1f864cd36ef768e2b8a402dcb8f24543ab32d"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "8a1037fab5a74085ff9fa8779c1a8c138c624004fd1fa0ceaca1b2218937299e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-linux-musl-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "powerpc64le"
-git-tree-sha1 = "8b99f2ecedd104c78ba8d53cdd468b3ee5e27423"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "98196d6d3af0800bda05334cfa8e96bba8ad87bc6d0394b35f99d15647135adc"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.powerpc64le-linux-gnu-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "armv7l"
-git-tree-sha1 = "1813315897d45629653329ce28c4267fc81b3889"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "eff316030c51f05e0bdd246708cdc67607b13bb2db9f140b181845756b016d46"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.armv7l-linux-musleabihf-libgfortran5.tar.gz"
+    sha256 = "62f0674e47c3ecce9ba6e6728b208798f15806359a1e2ad0d8764f761cb5eee9"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.aarch64-apple-darwin-libgfortran5.tar.gz"
 [[OpenSpecFun]]
 arch = "aarch64"
-git-tree-sha1 = "72aec96e98b45523a98b6c0486461475a1e69584"
+git-tree-sha1 = "6b9ae8efdc4701c34c1e4f69a313b30d6ca83584"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[OpenSpecFun.download]]
-    sha256 = "6a1024d684c6865fbb85a50872c2842c1aaa23f6ce49f1127b8fe6a262f2a6e3"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.aarch64-linux-gnu-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "powerpc64le"
-git-tree-sha1 = "b803e3e1af79f186c2260b1e16736705b24ebd28"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "6bbdf04173cd31373ff9cff70e84bd27b4a853e5a3770f7447e786ca1d0accfc"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.powerpc64le-linux-gnu-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "82b72b84ce5eb60e7b2f85320e4e92af1f3c1572"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[OpenSpecFun.download]]
-    sha256 = "89bde29d3f4ec4fcdae25e3ca1a3d79dd772bf44b0cf45cc1eefdb2e7f0abf04"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-w64-mingw32-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "armv7l"
-git-tree-sha1 = "8d9528827da1ba7b82c2008a251b6610fc967abc"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "d340a8319981af6430d0e43a9caaab48a3cf4e66a1af6cde18a6de5934f523eb"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.armv7l-linux-musleabihf-libgfortran3.tar.gz"
+    sha256 = "ce63837935a99542c2e1130ee4e08acdb94aa898b0965b9933323d282124f7a9"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.aarch64-linux-gnu-libgfortran3.tar.gz"
 [[OpenSpecFun]]
 arch = "aarch64"
-git-tree-sha1 = "891df4c26f49bac0bc600580991445fa32cf9df1"
+git-tree-sha1 = "db307fcbdef00baadf1544374e44b8c93fb99235"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "373973274091901542bc1f10b41a2648c070d7bbb3ca04a073ac4ac35a77b905"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.aarch64-linux-gnu-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "aarch64"
+git-tree-sha1 = "c9034f7942de1da305ab2c556f0e078ff9e06164"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "eb44502d0e2bacc9ab4d58bed3f56fd8092314257190fa7466258e0f2c52d8a8"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "aarch64"
+git-tree-sha1 = "b213cff4857bd909d9fc54e5a3003d9c2ed76191"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[OpenSpecFun.download]]
-    sha256 = "9326f57ca291c15d40361937925809a9145acdcc9c9b000aee2b0ccfe60c9607"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.aarch64-linux-musl-libgfortran3.tar.gz"
+    sha256 = "8fb469335df317e443277c2e73bdfdf8664274261807b81912e9597b04fa8d06"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.aarch64-linux-musl-libgfortran3.tar.gz"
 [[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "6b3fe9737f0aeb4ee1b6e63474f6b34d57b6ed31"
+arch = "aarch64"
+git-tree-sha1 = "7078882dd2dfb12ca41d855fd8d060b699c05ed6"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "bd6ea080fa19eeb7a0f8fd8b3c73a89779847ef55df1a00e8358394a6342c30b"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.aarch64-linux-musl-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "aarch64"
+git-tree-sha1 = "05e23dbd4be0a62c9ac0d3fdfe1d1629c03b46cf"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "d18d582c56f4aeaa7d004b7abfed1e3f10957d6d2b9a57067347b491c73caf66"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.aarch64-linux-musl-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e1a07ef75ba5af859c948da20ab134689e0a7da8"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "1899c8f78a8ab58cd9d0bada9385e54ae244b49bb66ca07a2607379171cbf5ef"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv6l-linux-gnueabihf-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "ac2ce8bf2689c1460a28399f3a18223c6b2f83fa"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "1a27f7855a67e335326010a77570ffd78ecf171a4f744128eb857e3ac01f2b89"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv6l-linux-gnueabihf-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "2f664f4c30e54cdebee0d3fdf7a6082a40a99abf"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[OpenSpecFun.download]]
-    sha256 = "78ac48e102326770ed44fb6806d802b65e5557b6e0118b1db2d6f50b70c3384e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "73337844c4df457ff98020cdd10db33ca95e61fce74dc702ebfd7b9ca8af72bb"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv6l-linux-gnueabihf-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "12177da813865ef41702187e25f2b98342b40240"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "d2e2279aae29434baad8b0406954cdd99c80970bb0d3b09247d5b82ecea81885"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv6l-linux-musleabihf-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "96925303937e72483c8be72dc9cb93c8b5d897b3"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "8fd91fc7e3191336d6b26f6e3b683dc156ebb5286923302447c05174753ff699"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv6l-linux-musleabihf-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fd18448cb8060be7c6b25ac6092c357125631de7"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "daef55b76d7b1cad8a6b9a2c5402812bdcee4c370153abac2ea92a9240e36ec5"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv6l-linux-musleabihf-libgfortran5.tar.gz"
 [[OpenSpecFun]]
 arch = "armv7l"
-git-tree-sha1 = "e039588b778e66f01b04ec2dd033a39d5c3e8993"
+call_abi = "eabihf"
+git-tree-sha1 = "524f7a7e8a9d6b447dadb207f8b4a1311d192cf8"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[OpenSpecFun.download]]
-    sha256 = "7116d8ab7b34cc8b430288edb8e03d6e697194eb01ab7550544e1f1f3e139d67"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
+    sha256 = "2a45cd6cd2e6b90fc3dd9e1057966ed9064ba86ee6e04ea333fd9f029c9646e6"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "57c1ea983362a9eaf771bbc3e0b6c988177c2d0f"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "d42531f7bb3a05221574e02012dee632f392d9d9a7953a4320b27584f3424f85"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9c8127ee07b0092f21d0c2cf805a19f52450d2fc"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "0d5e510dd8e08fdc081f746e1687d20da32dde9a9f6b6180804c35355a74c703"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "fe7c15757dd5c2b4b29a631e0b983eaaef3f80ea"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "78a5455486a056b8956d3ea40ccf683e2b7e4eace28d070bd4ef0d8fac69554a"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv7l-linux-musleabihf-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f23a39285e514bfb74907019ae7aa2c667fb4ed7"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "28c46cfaa3adbddc2435caf819cf00b95cdacebcfb095d87438de63f1531b0f3"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv7l-linux-musleabihf-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "15f74a68ae1bb1ff3114b34f165672b2bd550fe9"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "66202bbff89889fb4b7cb89d87768dc2cbcc7bb90dc5cd5387cda4d5f7f7c5e5"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.armv7l-linux-musleabihf-libgfortran5.tar.gz"
 [[OpenSpecFun]]
 arch = "i686"
-git-tree-sha1 = "67ea6a215190811398d5ae132d6da2efbffe9a14"
+git-tree-sha1 = "35610583203dfbc5b9bfe613772bb67c1abc4778"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "05f556fd037b91676b463f95ff28d81edb70506d2347f5917a2a39545d6c6960"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-linux-gnu-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "99d8550373a124c75a6280925143dc88bb5a1a26"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "02b3e11bf6eb1024fdb819048606b2c67c7737a681f73ab73bcd72bf1610f5ae"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-linux-gnu-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "59b44a181b28dc09edf39185a65fa4cdd0219356"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "9f3cd4020bab3b2f947501590b614fbdcc92f7cad2050049d8204e1f7cdee5e5"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-linux-gnu-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "5e07813447da3cc970d786a26ad092615771ebae"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "ab7ea2e6babdb4a2dd82f145143f892661fe6e75aea0916142f993135ac6e071"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-linux-musl-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "47e82f4bdebb30dab43c1bd1674965945e62b676"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "2ad0e270a82a924036658fa8fd1ed8f0b1c61e9447617daff286071cedd85eb0"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-linux-musl-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "4c767b0722fa5030ff43b41478a53ec08ddf4a20"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "10de042138d88112c6785e33d786f4b2b58664d4e138fd52ed0c1c6a7f708333"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-linux-musl-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "2701821aea72a5c53fd3c0ce0d3ee81192f36e0e"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[OpenSpecFun.download]]
+    sha256 = "b78b0f3053992fb27ddbc2ce9f8d6ce3f1405b58eee4cc39a3d33b07ad328de3"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-w64-mingw32-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "861ce7b5afa003541514b093135dff7c486513ac"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[OpenSpecFun.download]]
+    sha256 = "b30cb6d448eeb214c8046024de9368ad953e5f0dc748bc1ed34b9a1af3c1c8a3"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-w64-mingw32-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "i686"
+git-tree-sha1 = "adceacf32d40add0673108247ba07f794e55d84d"
 libgfortran_version = "5.0.0"
 os = "windows"
 
     [[OpenSpecFun.download]]
-    sha256 = "5667c58ad6db5a0c971b8d7f72a23440598744064016295c72f370230a1e26b6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-w64-mingw32-libgfortran5.tar.gz"
+    sha256 = "20f01c68df05d36df3322fd60bda917906cfcf01678c37484bdd871fa453d5ae"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.i686-w64-mingw32-libgfortran5.tar.gz"
 [[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "88ba27f86857bf275601d48d68d1cd1399aaed59"
+arch = "powerpc64le"
+git-tree-sha1 = "e1968dad434f402bbaed73baea90ae1f53800cfa"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "cf56cded91f86c0a7a34d76825344576af8ed4b427d9c9766c3fa17c86e34ed1"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.powerpc64le-linux-gnu-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "powerpc64le"
+git-tree-sha1 = "5a52c53f4a19e7bb7caec0f94ffbb41dc158510e"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[OpenSpecFun.download]]
-    sha256 = "9952d5c066803fd6dd15e09a4a58bd9628af778bb1f20763fad76b9d42bad891"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "a9ab1fa7ea857ec23c6f53891196836d1e14a499a6ba381404995cba1f6cd35d"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.powerpc64le-linux-gnu-libgfortran4.tar.gz"
 [[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "6b566bae2ffd19e893d20c4daf879ecbe5ec4bd8"
+arch = "powerpc64le"
+git-tree-sha1 = "86c24e5290d0c783a1309c395d416b79f05b8bf9"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "00a8590162cd174b39120077b9cfca286e5b14d9c45c23c48764e78fe7da75d7"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.powerpc64le-linux-gnu-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "a929073e76006b94a41c0f24410db9ea560f4d43"
 libgfortran_version = "3.0.0"
-os = "windows"
+os = "macos"
 
     [[OpenSpecFun.download]]
-    sha256 = "7d2dfdf974d5c047bac0dc66c412bb7854b1591bb6e9046145b796a9a4a91347"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-w64-mingw32-libgfortran3.tar.gz"
+    sha256 = "4bba5db662f1b2283bcbd42f6a9676f41a5c7a090684f6c9b8dacf93dec85787"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-apple-darwin-libgfortran3.tar.gz"
 [[OpenSpecFun]]
 arch = "x86_64"
-git-tree-sha1 = "568cad8abf360e6da5ef2936ccf705a79cbde7dc"
+git-tree-sha1 = "d9171eee57bf94c6e1c63b7a00737d0b01f1c289"
 libgfortran_version = "4.0.0"
-os = "windows"
+os = "macos"
 
     [[OpenSpecFun.download]]
-    sha256 = "a2b106f921bc4023bbdf1b27844d653a426934961486a425afd79c0db64aba50"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-w64-mingw32-libgfortran4.tar.gz"
+    sha256 = "f70fd8f44f4e2a5040f37843b330220ceff77d1d5b8fc37081d25ed3d7fedafc"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-apple-darwin-libgfortran4.tar.gz"
 [[OpenSpecFun]]
 arch = "x86_64"
-git-tree-sha1 = "0260d53ea9d1efbcad2efdb7db95ae3389a39bde"
+git-tree-sha1 = "17862c1bda6fdc5db8169d61756028c47b326812"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[OpenSpecFun.download]]
+    sha256 = "744005adb071038c26211511dd4cced99daaee6a7995d22a47b26ea58e4a1eb2"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "2dd933fb3df4f0ddb2c978e2b067ea4700d2ed47"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "d19187429cbea3e52696f0f4a2452a91dda6cffdcd81db15e17bfffada26434f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-linux-gnu-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "bb6b4ba0bfd851016003a876da737cb82aa1fe21"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "3181e5494e9d7b0f8335510ba409887fbbd2281f73fd436ce43c102a3d13017f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "56c07668389be3c75e1874ebd44275e15202675f"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "d52718746675537d8505cf1723c1a6dbb2887ed050a8ee60f769a883ead10b5b"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "ea312722e39c26cf0d38b0d644e036d179be3924"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "eb8a680a9232fd030c63c6cf3d5a92ae96873a3ea9a2eceddbe8ac400139ba27"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-linux-musl-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "89f9372594d7cde2565c1fb2ee15b2d5a041880e"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "8cdcfcc6d272dfb7a5ac5af577ac54135cb720c0f4df1bcbaec44d30542771cf"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-linux-musl-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "1fe3c4ddc39afe91b16aa929139d3a116f6bceee"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenSpecFun.download]]
+    sha256 = "17bde5429686057c368c789c89de60ce3b8a3ef5f244162a34ba39afc9791ce3"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-linux-musl-libgfortran5.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "ce17372bb026cbf7ef402b2ec4ae9572a342ed26"
+libgfortran_version = "3.0.0"
+os = "freebsd"
+
+    [[OpenSpecFun.download]]
+    sha256 = "941f06575f46343830198000c1a10fd8653e0af5eccbcdbc3c21e76eae4acecb"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "15908f27d25d3411f4ebf8f7b4a7da861a6fbbff"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[OpenSpecFun.download]]
+    sha256 = "417f83b2cd1c2e0a745275276701017289744ad3aa3ceaca942830cd22f52195"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+[[OpenSpecFun]]
+arch = "x86_64"
+git-tree-sha1 = "7d73cde23f7c89f7b3c905734df0033b02d4375a"
 libgfortran_version = "5.0.0"
 os = "freebsd"
 
     [[OpenSpecFun.download]]
-    sha256 = "9ac4f803a9513498461d920fa19fb881ada54ffdfabb93bea7de82cf6a763c5e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-unknown-freebsd11.1-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "aarch64"
-git-tree-sha1 = "37a035bf3804183372683d15794f5d925507e8d8"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "7882c925f720487f6a48cfd15c619cfb07a65bef75555ca436e4f8b04cce036c"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.aarch64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "d572e0976f089b70b79a671aad8fe86f9f97da38004f3efb715a4359d862ce12"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-unknown-freebsd-libgfortran5.tar.gz"
 [[OpenSpecFun]]
 arch = "x86_64"
-git-tree-sha1 = "6e792bd6e717ee20dd152484d7ea427ab3d2cc4b"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "2a6411fcbde249d214cca52dbdcdf9aef689158f57274d2b915df0d85bc2fbec"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-linux-musl-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "82281a4650fe7e88f7e55281f750e608d7ea3641"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "64e59de65ed5a69c7865a209bb51ef5b1ab87195cd784a56a302cc378946f54e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-linux-musl-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "9ef16c59d4cfbf45bd2abf73d6d1c82f98c4e390"
+git-tree-sha1 = "ce2c516326e97f2028c996b5c7b172765035d0ef"
 libgfortran_version = "3.0.0"
 os = "windows"
 
     [[OpenSpecFun.download]]
-    sha256 = "00d2889358a82e792fe0090d37aa85ef47a52e7cb5f30967513f591c55408094"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-w64-mingw32-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "armv7l"
-git-tree-sha1 = "564f2a7f3f6a78849d811483d31a6c138ccfc7a5"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "4f16bd113705fbc7e50b1e23f80f144defdc42d0703bf331757e94ed1cf1e869"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+    sha256 = "79f6f814f9d97087288b8f94934bac1630cb218bb1f65564faf56748dddcecf7"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-w64-mingw32-libgfortran3.tar.gz"
 [[OpenSpecFun]]
 arch = "x86_64"
-git-tree-sha1 = "846b9ab259c1612b851f8b59bc3658997e23ff57"
-libc = "glibc"
+git-tree-sha1 = "2b4b77d7e1b1165abdee2ecec5cd21ffc98adbbf"
 libgfortran_version = "4.0.0"
-os = "linux"
+os = "windows"
 
     [[OpenSpecFun.download]]
-    sha256 = "4f7927ae3ea60d2a44f207afd8e94f4209fb87112f630eac4cdba2b4e03ef5b6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "a8d374b5ed929e8ec7a1466202e6aa8417aecb95bdf9a777a1ff8dfe5bc237ba"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-w64-mingw32-libgfortran4.tar.gz"
 [[OpenSpecFun]]
 arch = "x86_64"
-git-tree-sha1 = "fd10cac49a46743c9424cbe3fe54d49ce2fe70e3"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "debe6c1c92ad1dddd85f889ca109e55c0649d414519be4382575b75f935144d4"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-linux-musl-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "aarch64"
-git-tree-sha1 = "22695181b6486c49178d18b59e02443f2605cbc7"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "c954a3d9fa4b5bf8eeb048e4cbc1c98d580e308cd18fce9ac5ef10079150d916"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.aarch64-linux-musl-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "27ce3de4809a72bfdbd2052e066d27d5754b7fe6"
-libc = "glibc"
+git-tree-sha1 = "3c980438ea4a2b93cac0b011f1126f6f2615331f"
 libgfortran_version = "5.0.0"
-os = "linux"
+os = "windows"
 
     [[OpenSpecFun.download]]
-    sha256 = "207dce9d7fce51a46c5fe98a35d5aa4b7f88c47aa0c1ace8412fe516140caa1c"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-linux-gnu-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "199385a86c25ef047d894b47c9bbabd5eed8c257"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "b928c1f822fd496cdfc4d8278391ae364ca64c6b6a2026fc1f2106b6b4c048de"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-linux-gnu-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "x86_64"
-git-tree-sha1 = "08b433721ef5db7040669f8627ddad3920e3e2eb"
-libgfortran_version = "3.0.0"
-os = "freebsd"
-
-    [[OpenSpecFun.download]]
-    sha256 = "318f001de93d2bdf0a18116694ad8db769644a16f2b32ef9e78ad37f8444d045"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.x86_64-unknown-freebsd11.1-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "0e063dabc2148025ced762acf64ba582e67c1345"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "bd821aaa14057c5660ffe2f639354528d5348bffdf4220887173ad97cc0dc4ed"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-linux-musl-libgfortran3.tar.gz"
-[[OpenSpecFun]]
-arch = "armv7l"
-git-tree-sha1 = "ad225af9eabd15306c6cfa733c55695c3490d153"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "4ea23ae53bb294a4c9c0c57c4fdfc1940b86f60be9e320f7ebd64004f9f2770e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "i686"
-git-tree-sha1 = "3a7351aa6624410e148dda6c8a5e4942af33d541"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "0d3ed88cec9dd4bf534b129cffa99ca7fd25df699f88e2873a2df34f153c5b95"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.i686-linux-musl-libgfortran4.tar.gz"
-[[OpenSpecFun]]
-arch = "aarch64"
-git-tree-sha1 = "6ce6ca3abacd548dfb8d7df273fc24c5f5e38e5a"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "f6382e6717b5b691eb44680fce95f3e85a4b5eeb8513b02ca28fbf96efb64335"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.aarch64-linux-musl-libgfortran5.tar.gz"
-[[OpenSpecFun]]
-arch = "powerpc64le"
-git-tree-sha1 = "1d225d757db445bf41e5a01d5a88ac3cfdc01944"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenSpecFun.download]]
-    sha256 = "5b794b881219e37bc302542b33caa4eb9f5198c5997cfe22e4c5706cab67d742"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.3+3/OpenSpecFun.v0.5.3.powerpc64le-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "4e21859fe8a5cbd93103f4a270f29e13d1683914c4dd08236ce129934f98103e"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSpecFun_jll.jl/releases/download/OpenSpecFun-v0.5.4+0/OpenSpecFun.v0.5.4.x86_64-w64-mingw32-libgfortran5.tar.gz"
