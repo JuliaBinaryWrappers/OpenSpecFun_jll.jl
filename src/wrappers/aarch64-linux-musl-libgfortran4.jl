@@ -3,7 +3,7 @@ export libopenspecfun
 
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("OpenSpecFun")
-JLLWrappers.@declare_library_product(libopenspecfun, "libopenspecfun.so.1")
+JLLWrappers.@declare_library_product(libopenspecfun, "libopenspecfun.so.2")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(

@@ -3,12 +3,12 @@ export libopenspecfun
 
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("OpenSpecFun")
-JLLWrappers.@declare_library_product(libopenspecfun, "@rpath/libopenspecfun.1.dylib")
+JLLWrappers.@declare_library_product(libopenspecfun, "@rpath/libopenspecfun.2.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libopenspecfun,
-        "lib/libopenspecfun.1.4.dylib",
+        "lib/libopenspecfun.2.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
